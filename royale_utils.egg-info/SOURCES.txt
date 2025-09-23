@@ -1,0 +1,9 @@
+pyproject.toml
+royale/__init__.py
+royale/battlelog.py
+royale/cards.py
+royale_utils.egg-info/PKG-INFO
+royale_utils.egg-info/SOURCES.txt
+royale_utils.egg-info/dependency_links.txt
+royale_utils.egg-info/requires.txt
+royale_utils.egg-info/top_level.txt

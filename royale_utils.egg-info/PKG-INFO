@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: royale-utils
+Version: 0.1.0
+Summary: Utility per Clash Royale API: battlelog, merge, carte e visualizzazioni
+Author-email: Riccardo <s.riccardo2001@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Provides-Extra: viz
+Requires-Dist: matplotlib; extra == "viz"

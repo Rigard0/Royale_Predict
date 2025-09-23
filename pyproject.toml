@@ -1,0 +1,14 @@
+[project]
+name = "royale-utils"
+version = "0.1.0"
+description = "Utility per Clash Royale API: battlelog, merge, carte e visualizzazioni"
+authors = [{ name = "Riccardo", email = "s.riccardo2001@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["requests"]
+
+[project.optional-dependencies]
+viz = ["matplotlib"]
+
+[tool.setuptools]
+packages = ["royale"]
