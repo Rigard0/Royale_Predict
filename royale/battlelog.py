@@ -23,7 +23,7 @@ TOKEN = os.getenv(
 # ---------------------- Percorsi dati di default ----------------------
 # Default richiesto: /home/simonetto/royale/data/all
 # Puoi override con ROYALE_DATA_DIR=/un/percorso/qualsiasi
-_DEFAULT_DATA_ROOT = Path("/home/simonetto/royale/Royale_Predict/data").resolve()
+_DEFAULT_DATA_ROOT = Path("/home/simonetto/project_royale/Royale_Predict/data").resolve()
 
 def get_data_dir(player_tag: Optional[str] = None) -> Path:
     """

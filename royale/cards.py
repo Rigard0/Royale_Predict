@@ -32,8 +32,10 @@ def load_card_map(
         # val deve già essere {name, image}
         name = val.get("name")
         image = val.get("image")
+        evo_image = val.get("Evo_image")
         path = str(img_dir_path / image) if image else None
-        out[str(cid)] = {"name": name, "image": image, "path": path}
+        evo_path = str(img_dir_path / evo_image) if evo_image else None
+        out[str(cid)] = {"name": name, "image": image, 'Evo_image': evo_image, "path": path, "Evo_path": evo_path}
     return out
 
 # ---------------- Visualizzazioni ----------------
@@ -41,6 +43,7 @@ def show_cards(
     card_ids: List[str | int],
     ncols: int = 4,
     card_map: Optional[Dict[str, Dict[str, Any]]] = None,
+    show_evo: bool = False,
 ):
     """
     Mostra le immagini delle carte date le loro ID.
@@ -50,6 +53,7 @@ def show_cards(
 
     if card_map is None:
         card_map = load_card_map()
+    # print(card_map)
 
     n = len(card_ids)
     nrows = (n + ncols - 1) // ncols
@@ -65,7 +69,12 @@ def show_cards(
             continue
 
         name = info["name"]
-        path = info.get("path")
+        
+        if show_evo and info.get('Evo_path'):
+            path = info.get("Evo_path")
+        else:
+            path = info.get("path")
+            
         if path and Path(path).exists():
             img = mpimg.imread(path)
             ax.imshow(img)
@@ -82,13 +91,14 @@ def _extract_side(side: dict) -> dict:
     tag = side.get("tag", "")
     crowns = side.get("crowns", 0)
     cards = side.get("cards", []) or []
-    deck = [{"id": c.get("id"), "name": c.get("name")} for c in cards]
+    deck = [{"id": c.get("id"), "name": c.get("name"), "is_evo": bool(c.get("evolutionLevel"))} for c in cards]
     return {"name": name, "tag": tag, "crowns": crowns, "deck": deck}
 
 def show_match_decks(
     match: dict,
     card_map: Optional[Dict[str, Dict[str, Any]]] = None,
     title: Optional[str] = None,
+    show_evo: bool = True
 ):
     """
     Mostra i deck dei due giocatori con layout:
@@ -136,7 +146,11 @@ def show_match_decks(
                     cid = deck[idx]["id"]
                     info = card_map.get(str(cid), {})
                     name = deck[idx]["name"] or info.get("name", "Unknown")
-                    path = info.get("path")
+                    is_evo = deck[idx]["is_evo"]
+                    if show_evo and is_evo and info.get('Evo_path'):
+                        path = info.get("Evo_path")
+                    else:
+                        path = info.get("path")
                     if path and Path(path).exists():
                         img = mpimg.imread(path)
                         ax.imshow(img)
