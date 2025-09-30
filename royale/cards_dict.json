@@ -3,726 +3,2298 @@
     "name": "Knight",
     "image": "Knight.png",
     "Evo_image": "Evo_Knight.png",
-    "loc": 0
+    "loc": 0,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000001": {
     "name": "Archers",
     "image": "Archers.png",
     "Evo_image": "Evo_Archers.png",
-    "loc": 1
+    "loc": 1,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 0,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000002": {
     "name": "Goblins",
     "image": "Goblins.png",
     "Evo_image": false,
-    "loc": 2
+    "loc": 2,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 0,
+      "elixir_cost": 2,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000003": {
     "name": "Giant",
     "image": "Giant.png",
     "Evo_image": false,
-    "loc": 3
+    "loc": 3,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 5,
+      "target_structures_only": 1,
+      "target_ground": 0,
+      "target_air": 0
+    }
   },
   "26000004": {
     "name": "P.E.K.K.A",
     "image": "P_E_K_K_A.png",
     "Evo_image": "Evo_P_E_K_K_A.png",
-    "loc": 4
+    "loc": 4,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 7,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000005": {
     "name": "Minions",
     "image": "Minions.png",
     "Evo_image": false,
-    "loc": 5
+    "loc": 5,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 1,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 0,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000006": {
     "name": "Balloon",
     "image": "Balloon.png",
     "Evo_image": false,
-    "loc": 6
+    "loc": 6,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 1,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 5,
+      "target_structures_only": 1,
+      "target_ground": 0,
+      "target_air": 0
+    }
   },
   "26000007": {
     "name": "Witch",
     "image": "Witch.png",
     "Evo_image": "Evo_Witch.png",
-    "loc": 7
+    "loc": 7,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 1,
+      "elixir_cost": 5,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000008": {
     "name": "Barbarians",
     "image": "Barbarians.png",
     "Evo_image": "Evo_Barbarians.png",
-    "loc": 8
+    "loc": 8,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 5,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000009": {
     "name": "Golem",
     "image": "Golem.png",
     "Evo_image": false,
-    "loc": 9
+    "loc": 9,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 8,
+      "target_structures_only": 1,
+      "target_ground": 0,
+      "target_air": 0
+    }
   },
   "26000010": {
     "name": "Skeletons",
     "image": "Skeletons.png",
     "Evo_image": "Evo_Skeletons.png",
-    "loc": 10
+    "loc": 10,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 0,
+      "elixir_cost": 1,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000011": {
     "name": "Valkyrie",
     "image": "Valkyrie.png",
     "Evo_image": "Evo_Valkyrie.png",
-    "loc": 11
+    "loc": 11,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 2,
+      "area_damage": 1,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000012": {
     "name": "Skeleton Army",
     "image": "Skeleton_Army.png",
     "Evo_image": false,
-    "loc": 12
+    "loc": 12,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 0,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000013": {
     "name": "Bomber",
     "image": "Bomber.png",
     "Evo_image": "Evo_Bomber.png",
-    "loc": 13
+    "loc": 13,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 2,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000014": {
     "name": "Musketeer",
     "image": "Musketeer.png",
     "Evo_image": "Evo_Musketeer.png",
-    "loc": 14
+    "loc": 14,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000015": {
     "name": "Baby Dragon",
     "image": "Baby_Dragon.png",
     "Evo_image": "Evo_Baby_Dragon.png",
-    "loc": 15
+    "loc": 15,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 1,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 1,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000016": {
     "name": "Prince",
     "image": "Prince.png",
     "Evo_image": false,
-    "loc": 16
+    "loc": 16,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 5,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000017": {
     "name": "Wizard",
     "image": "Wizard.png",
     "Evo_image": "Evo_Wizard.png",
-    "loc": 17
+    "loc": 17,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 1,
+      "elixir_cost": 5,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000018": {
     "name": "Mini P.E.K.K.A",
     "image": "Mini_P_E_K_K_A.png",
     "Evo_image": false,
-    "loc": 18
+    "loc": 18,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000019": {
     "name": "Spear Goblins",
     "image": "Spear_Goblins.png",
     "Evo_image": false,
-    "loc": 19
+    "loc": 19,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 0,
+      "elixir_cost": 2,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000020": {
     "name": "Giant Skeleton",
     "image": "Giant_Skeleton.png",
     "Evo_image": false,
-    "loc": 20
+    "loc": 20,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 6,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000021": {
     "name": "Hog Rider",
     "image": "Hog_Rider.png",
     "Evo_image": false,
-    "loc": 21
+    "loc": 21,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 4,
+      "target_structures_only": 1,
+      "target_ground": 0,
+      "target_air": 0
+    }
   },
   "26000022": {
     "name": "Minion Horde",
     "image": "Minion_Horde.png",
     "Evo_image": false,
-    "loc": 22
+    "loc": 22,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 1,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 0,
+      "elixir_cost": 5,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000023": {
     "name": "Ice Wizard",
     "image": "Ice_Wizard.png",
     "Evo_image": false,
-    "loc": 23
+    "loc": 23,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 1,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000024": {
     "name": "Royal Giant",
     "image": "Royal_Giant.png",
     "Evo_image": "Evo_Royal_Giant.png",
-    "loc": 24
+    "loc": 24,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 6,
+      "target_structures_only": 1,
+      "target_ground": 0,
+      "target_air": 0
+    }
   },
   "26000025": {
     "name": "Guards",
     "image": "Guards.png",
     "Evo_image": false,
-    "loc": 25
+    "loc": 25,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000026": {
     "name": "Princess",
     "image": "Princess.png",
     "Evo_image": false,
-    "loc": 26
+    "loc": 26,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000027": {
     "name": "Dark Prince",
     "image": "Dark_Prince.png",
     "Evo_image": false,
-    "loc": 27
+    "loc": 27,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 2,
+      "area_damage": 1,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000028": {
     "name": "Three Musketeers",
     "image": "Three_Musketeers.png",
     "Evo_image": false,
-    "loc": 28
+    "loc": 28,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 9,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000029": {
     "name": "Lava Hound",
     "image": "Lava_Hound.png",
     "Evo_image": false,
-    "loc": 29
+    "loc": 29,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 1,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 7,
+      "target_structures_only": 1,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000030": {
     "name": "Ice Spirit",
     "image": "Ice_Spirit.png",
     "Evo_image": "Evo_Ice_Spirit.png",
-    "loc": 30
+    "loc": 30,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 1,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000031": {
     "name": "Fire Spirit",
     "image": "Fire_Spirit.png",
     "Evo_image": false,
-    "loc": 31
+    "loc": 31,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 1,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000032": {
     "name": "Miner",
     "image": "Miner.png",
     "Evo_image": false,
-    "loc": 32
+    "loc": 32,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000033": {
     "name": "Sparky",
     "image": "Sparky.png",
     "Evo_image": false,
-    "loc": 33
+    "loc": 33,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 1,
+      "area_damage": 1,
+      "elixir_cost": 6,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000034": {
     "name": "Bowler",
     "image": "Bowler.png",
     "Evo_image": false,
-    "loc": 34
+    "loc": 34,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 2,
+      "area_damage": 1,
+      "elixir_cost": 5,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000035": {
     "name": "Lumberjack",
     "image": "Lumberjack.png",
     "Evo_image": "Evo_Lumberjack.png",
-    "loc": 35
+    "loc": 35,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000036": {
     "name": "Battle Ram",
     "image": "Battle_Ram.png",
     "Evo_image": "Evo_Battle_Ram.png",
-    "loc": 36
+    "loc": 36,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 4,
+      "target_structures_only": 1,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000037": {
     "name": "Inferno Dragon",
     "image": "Inferno_Dragon.png",
     "Evo_image": "Evo_Inferno_Dragon.png",
-    "loc": 37
+    "loc": 37,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 1,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000038": {
     "name": "Ice Golem",
     "image": "Ice_Golem.png",
     "Evo_image": false,
-    "loc": 38
+    "loc": 38,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 2,
+      "target_structures_only": 1,
+      "target_ground": 0,
+      "target_air": 0
+    }
   },
   "26000039": {
     "name": "Mega Minion",
     "image": "Mega_Minion.png",
     "Evo_image": false,
-    "loc": 39
+    "loc": 39,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 1,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000040": {
     "name": "Dart Goblin",
     "image": "Dart_Goblin.png",
     "Evo_image": "Evo_Dart_Goblin.png",
-    "loc": 40
+    "loc": 40,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 0,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000041": {
     "name": "Goblin Gang",
     "image": "Goblin_Gang.png",
     "Evo_image": false,
-    "loc": 41
+    "loc": 41,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 0,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000042": {
     "name": "Electro Wizard",
     "image": "Electro_Wizard.png",
     "Evo_image": false,
-    "loc": 42
+    "loc": 42,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 1,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000043": {
     "name": "Elite Barbarians",
     "image": "Elite_Barbarians.png",
     "Evo_image": false,
-    "loc": 43
+    "loc": 43,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 6,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000044": {
     "name": "Hunter",
     "image": "Hunter.png",
     "Evo_image": "Evo_Hunter.png",
-    "loc": 44
+    "loc": 44,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 1,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1    }
   },
   "26000045": {
     "name": "Executioner",
     "image": "Executioner.png",
     "Evo_image": "Evo_Executioner.png",
-    "loc": 45
+    "loc": 45,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 1,
+      "elixir_cost": 5,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000046": {
     "name": "Bandit",
     "image": "Bandit.png",
     "Evo_image": false,
-    "loc": 46
+    "loc": 46,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000047": {
     "name": "Royal Recruits",
     "image": "Royal_Recruits.png",
     "Evo_image": "Evo_Royal_Recruits.png",
-    "loc": 47
+    "loc": 47,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 7,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000048": {
     "name": "Night Witch",
     "image": "Night_Witch.png",
     "Evo_image": false,
-    "loc": 48
+    "loc": 48,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 1,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000049": {
     "name": "Bats",
     "image": "Bats.png",
     "Evo_image": "Evo_Bats.png",
-    "loc": 49
+    "loc": 49,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 1,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 0,
+      "elixir_cost": 2,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000050": {
     "name": "Royal Ghost",
     "image": "Royal_Ghost.png",
     "Evo_image": false,
-    "loc": 50
+    "loc": 50,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 1,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000051": {
     "name": "Ram Rider",
     "image": "Ram_Rider.png",
     "Evo_image": false,
-    "loc": 51
+    "loc": 51,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 5,
+      "target_structures_only": 1,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000052": {
     "name": "Zappies",
     "image": "Zappies.png",
     "Evo_image": false,
-    "loc": 52
+    "loc": 52,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000053": {
     "name": "Rascals",
     "image": "Rascals.png",
     "Evo_image": false,
-    "loc": 53
+    "loc": 53,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 5,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000054": {
     "name": "Cannon Cart",
     "image": "Cannon_Cart.png",
     "Evo_image": false,
-    "loc": 54
+    "loc": 54,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 1,
+      "win_condition": 0,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 5,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000055": {
     "name": "Mega Knight",
     "image": "Mega_Knight.png",
     "Evo_image": "Evo_Mega_Knight.png",
-    "loc": 55
+    "loc": 55,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 2,
+      "area_damage": 1,
+      "elixir_cost": 7,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000056": {
     "name": "Skeleton Barrel",
     "image": "Skeleton_Barrel.png",
     "Evo_image": "Evo_Skeleton_Barrel.png",
-    "loc": 56
+    "loc": 56,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 1,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 3,
+      "target_structures_only": 1,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000057": {
     "name": "Flying Machine",
     "image": "Flying_Machine.png",
     "Evo_image": false,
-    "loc": 57
+    "loc": 57,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 1,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000058": {
     "name": "Wall Breakers",
     "image": "Wall_Breakers.png",
     "Evo_image": "Evo_Wall_Breakers.png",
-    "loc": 58
+    "loc": 58,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 2,
+      "target_structures_only": 1,
+      "target_ground": 0,
+      "target_air": 0
+    }
   },
   "26000059": {
     "name": "Royal Hogs",
     "image": "Royal_Hogs.png",
     "Evo_image": false,
-    "loc": 59
+    "loc": 59,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 5,
+      "target_structures_only": 1,
+      "target_ground": 0,
+      "target_air": 0
+    }
   },
   "26000060": {
     "name": "Goblin Giant",
     "image": "Goblin_Giant.png",
     "Evo_image": "Evo_Goblin_Giant.png",
-    "loc": 60
+    "loc": 60,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 2,
+      "area_damage": 1,
+      "elixir_cost": 6,
+      "target_structures_only": 1,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000061": {
     "name": "Fisherman",
     "image": "Fisherman.png",
     "Evo_image": false,
-    "loc": 61
+    "loc": 61,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000062": {
     "name": "Magic Archer",
     "image": "Magic_Archer.png",
     "Evo_image": false,
-    "loc": 62
+    "loc": 62,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 1,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000063": {
     "name": "Electro Dragon",
     "image": "Electro_Dragon.png",
     "Evo_image": "Evo_Electro_Dragon.png",
-    "loc": 63
+    "loc": 63,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 1,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 1,
+      "elixir_cost": 5,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000064": {
     "name": "Firecracker",
     "image": "Firecracker.png",
     "Evo_image": "Evo_Firecracker.png",
-    "loc": 64
+    "loc": 64,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000065": {
     "name": "Mighty Miner",
     "image": "Mighty_Miner.png",
     "Evo_image": false,
-    "loc": 65
+    "loc": 65,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000067": {
     "name": "Elixir Golem",
     "image": "Elixir_Golem.png",
     "Evo_image": false,
-    "loc": 66
+    "loc": 66,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 3,
+      "target_structures_only": 1,
+      "target_ground": 0,
+      "target_air": 0
+    }
   },
   "26000068": {
     "name": "Battle Healer",
     "image": "Battle_Healer.png",
     "Evo_image": false,
-    "loc": 67
+    "loc": 67,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000069": {
     "name": "Skeleton King",
     "image": "Skeleton_King.png",
     "Evo_image": false,
-    "loc": 68
+    "loc": 68,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 2,
+      "area_damage": 1,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000072": {
     "name": "Archer Queen",
     "image": "Archer_Queen.png",
     "Evo_image": false,
-    "loc": 69
+    "loc": 69,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 5,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000074": {
     "name": "Golden Knight",
     "image": "Golden_Knight.png",
     "Evo_image": false,
-    "loc": 70
+    "loc": 70,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000077": {
     "name": "Monk",
     "image": "Monk.png",
     "Evo_image": false,
-    "loc": 71
+    "loc": 71,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 5,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000080": {
     "name": "Skeleton Dragons",
     "image": "Skeleton_Dragons.png",
     "Evo_image": false,
-    "loc": 72
+    "loc": 72,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 1,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 1,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000083": {
     "name": "Mother Witch",
     "image": "Mother_Witch.png",
     "Evo_image": false,
-    "loc": 73
+    "loc": 73,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 4,
+      "target_structures_only": 1,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000084": {
     "name": "Electro Spirit",
     "image": "Electro_Spirit.png",
     "Evo_image": false,
-    "loc": 74
+    "loc": 74,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 1,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000085": {
     "name": "Electro Giant",
     "image": "Electro_Giant.png",
     "Evo_image": false,
-    "loc": 75
+    "loc": 75,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 7,
+      "target_structures_only": 1,
+      "target_ground": 0,
+      "target_air": 0
+    }
   },
   "26000087": {
     "name": "Phoenix",
     "image": "Phoenix.png",
     "Evo_image": false,
-    "loc": 76
+    "loc": 76,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 1,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000093": {
     "name": "Little Prince",
     "image": "Little_Prince.png",
     "Evo_image": false,
-    "loc": 77
+    "loc": 77,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000095": {
     "name": "Goblin Demolisher",
     "image": "Goblin_Demolisher.png",
     "Evo_image": false,
-    "loc": 78
+    "loc": 78,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 1,
+      "elixir_cost": 4,
+      "target_structures_only": 1,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000096": {
     "name": "Goblin Machine",
     "image": "Goblin_Machine.png",
     "Evo_image": false,
-    "loc": 79
+    "loc": 79,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 1,
+      "area_damage": 1,
+      "elixir_cost": 5,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000097": {
     "name": "Suspicious Bush",
     "image": "Suspicious_Bush.png",
     "Evo_image": false,
-    "loc": 80
+    "loc": 80,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 2,
+      "target_structures_only": 1,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000099": {
     "name": "Goblinstein",
     "image": "Goblinstein.png",
     "Evo_image": false,
-    "loc": 81
+    "loc": 81,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 2,
+      "area_damage": 1,
+      "elixir_cost": 5,
+      "target_structures_only": 1,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "26000101": {
     "name": "Rune Giant",
     "image": "Rune_Giant.png",
     "Evo_image": false,
-    "loc": 82
+    "loc": 82,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 4,
+      "target_structures_only": 1,
+      "target_ground": 0,
+      "target_air": 0
+    }
   },
   "26000102": {
     "name": "Berserker",
     "image": "Berserker.png",
     "Evo_image": false,
-    "loc": 83
+    "loc": 83,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 2,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "26000103": {
     "name": "Boss Bandit",
     "image": "Boss_Bandit.png",
     "Evo_image": false,
-    "loc": 84
+    "loc": 84,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 6,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "27000000": {
     "name": "Cannon",
     "image": "Cannon.png",
     "Evo_image": "Evo_Cannon.png",
-    "loc": 85
+    "loc": 85,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 1,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "27000001": {
     "name": "Goblin Hut",
     "image": "Goblin_Hut.png",
     "Evo_image": false,
-    "loc": 86
+    "loc": 86,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 1,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 0,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "27000002": {
     "name": "Mortar",
     "image": "Mortar.png",
     "Evo_image": "Evo_Mortar.png",
-    "loc": 87
+    "loc": 87,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 1,
+      "win_condition": 1,
+      "HP": 1,
+      "area_damage": 1,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "27000003": {
     "name": "Inferno Tower",
     "image": "Inferno_Tower.png",
     "Evo_image": false,
-    "loc": 88
+    "loc": 88,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 1,
+      "win_condition": 0,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 5,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "27000004": {
     "name": "Bomb Tower",
     "image": "Bomb_Tower.png",
     "Evo_image": false,
-    "loc": 89
+    "loc": 89,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 1,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 1,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "27000005": {
     "name": "Barbarian Hut",
     "image": "Barbarian_Hut.png",
     "Evo_image": false,
-    "loc": 90
+    "loc": 90,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 1,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 6,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "27000006": {
     "name": "Tesla",
     "image": "Tesla.png",
     "Evo_image": "Evo_Tesla.png",
-    "loc": 91
+    "loc": 91,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 1,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "27000007": {
     "name": "Elixir Collector",
     "image": "Elixir_Collector.png",
     "Evo_image": false,
-    "loc": 92
+    "loc": 92,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 1,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 6,
+      "target_structures_only": 0,
+      "target_ground": 0,
+      "target_air": 0
+    }
   },
   "27000008": {
     "name": "X-Bow",
     "image": "X-Bow.png",
     "Evo_image": false,
-    "loc": 93
+    "loc": 93,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 1,
+      "win_condition": 1,
+      "HP": 2,
+      "area_damage": 0,
+      "elixir_cost": 6,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "27000009": {
     "name": "Tombstone",
     "image": "Tombstone.png",
     "Evo_image": false,
-    "loc": 94
+    "loc": 94,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 1,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "27000010": {
     "name": "Furnace",
     "image": "Furnace.png",
     "Evo_image": "Evo_Furnace.png",
-    "loc": 95
+    "loc": 95,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 1,
+      "area_damage": 1,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "27000012": {
     "name": "Goblin Cage",
     "image": "Goblin_Cage.png",
     "Evo_image": "Evo_Goblin_Cage.png",
-    "loc": 96
+    "loc": 96,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 1,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "27000013": {
     "name": "Goblin Drill",
     "image": "Goblin_Drill.png",
     "Evo_image": "Evo_Goblin_Drill.png",
-    "loc": 97
+    "loc": 97,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 1,
+      "win_condition": 1,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "28000000": {
     "name": "Fireball",
     "image": "Fireball.png",
     "Evo_image": false,
-    "loc": 98
+    "loc": 98,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "28000001": {
     "name": "Arrows",
     "image": "Arrows.png",
     "Evo_image": false,
-    "loc": 99
+    "loc": 99,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "28000002": {
     "name": "Rage",
     "image": "Rage.png",
     "Evo_image": false,
-    "loc": 100
+    "loc": 100,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 2,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "28000003": {
     "name": "Rocket",
     "image": "Rocket.png",
     "Evo_image": false,
-    "loc": 101
+    "loc": 101,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 6,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "28000004": {
     "name": "Goblin Barrel",
     "image": "Goblin_Barrel.png",
     "Evo_image": "Evo_Goblin_Barrel.png",
-    "loc": 102
+    "loc": 102,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 0,
+      "area_damage": 0,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "28000005": {
     "name": "Freeze",
     "image": "Freeze.png",
     "Evo_image": false,
-    "loc": 103
+    "loc": 103,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "28000006": {
     "name": "Mirror",
     "image": "Mirror.png",
     "Evo_image": false,
-    "loc": 104
+    "loc": 104,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 0,
+      "area_damage": 0,
+      "elixir_cost": 0,
+      "target_structures_only": 0,
+      "target_ground": 0,
+      "target_air": 0
+    }
   },
   "28000007": {
     "name": "Lightning",
     "image": "Lightning.png",
     "Evo_image": false,
-    "loc": 105
+    "loc": 105,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 6,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "28000008": {
     "name": "Zap",
     "image": "Zap.png",
     "Evo_image": "Evo_Zap.png",
-    "loc": 106
+    "loc": 106,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 2,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "28000009": {
     "name": "Poison",
     "image": "Poison.png",
     "Evo_image": false,
-    "loc": 107
+    "loc": 107,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 4,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "28000010": {
     "name": "Graveyard",
     "image": "Graveyard.png",
     "Evo_image": false,
-    "loc": 108
+    "loc": 108,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 0,
+      "area_damage": 0,
+      "elixir_cost": 5,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "28000011": {
     "name": "The Log",
     "image": "The_Log.png",
     "Evo_image": false,
-    "loc": 109
+    "loc": 109,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 2,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "28000012": {
     "name": "Tornado",
     "image": "Tornado.png",
     "Evo_image": false,
-    "loc": 110
+    "loc": 110,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "28000013": {
     "name": "Clone",
     "image": "Clone.png",
     "Evo_image": false,
-    "loc": 111
+    "loc": 111,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 0,
+      "area_damage": 0,
+      "elixir_cost": 0,
+      "target_structures_only": 0,
+      "target_ground": 0,
+      "target_air": 0
+    }
   },
   "28000014": {
     "name": "Earthquake",
     "image": "Earthquake.png",
     "Evo_image": false,
-    "loc": 112
+    "loc": 112,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 0,
+      "elixir_cost": 0,
+      "target_structures_only": 0,
+      "target_ground": 0,
+      "target_air": 0
+    }
   },
   "28000015": {
     "name": "Barbarian Barrel",
     "image": "Barbarian_Barrel.png",
     "Evo_image": false,
-    "loc": 113
+    "loc": 113,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 2,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "28000016": {
     "name": "Heal Spirit",
     "image": "Heal_Spirit.png",
     "Evo_image": false,
-    "loc": 114
+    "loc": 114,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 1,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "28000017": {
     "name": "Giant Snowball",
     "image": "Giant_Snowball.png",
     "Evo_image": "Evo_Giant_Snowball.png",
-    "loc": 115
+    "loc": 115,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 2,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "28000018": {
     "name": "Royal Delivery",
     "image": "Royal_Delivery.png",
     "Evo_image": false,
-    "loc": 116
+    "loc": 116,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 1,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "28000023": {
     "name": "Void",
     "image": "Void.png",
     "Evo_image": false,
-    "loc": 117
+    "loc": 117,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 0,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "28000024": {
     "name": "Goblin Curse",
     "image": "Goblin_Curse.png",
     "Evo_image": false,
-    "loc": 118
+    "loc": 118,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 2,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 0
+    }
   },
   "28000025": {
     "name": "Spirit Empress",
     "image": "Spirit_Empress.png",
     "Evo_image": false,
-    "loc": 119
+    "loc": 119,
+    "quality": {
+      "ground_troop": 1,
+      "air_troop": 1,
+      "spell": 0,
+      "structure": 0,
+      "win_condition": 0,
+      "HP": 1,
+      "area_damage": 0,
+      "elixir_cost": 4.5,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   },
   "28000026": {
     "name": "Vines",
     "image": "Vines.png",
     "Evo_image": false,
-    "loc": 120
+    "loc": 120,
+    "quality": {
+      "ground_troop": 0,
+      "air_troop": 0,
+      "spell": 1,
+      "structure": 0,
+      "win_condition": 1,
+      "HP": 0,
+      "area_damage": 1,
+      "elixir_cost": 3,
+      "target_structures_only": 0,
+      "target_ground": 1,
+      "target_air": 1
+    }
   }
 }
